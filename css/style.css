@@ -4,26 +4,81 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 .containerPage{
-    width: 50%;
-    margin: 1% auto ;
+    width: 60%;
+    margin: auto ;
 }
 
-
+/* header section */
 .header{
     margin-bottom: 2%;    
     /* debug */
-    background-color:violet;
-    height: 100px;
-
+    /* background-color:violet; */
+    /* height: 100px; */
 }
+.logo{
+    width: 200px;
+    border-right: solid 2px lightgray;
+    padding-right: 20px;
+}
+.indexLink{
+    display: inline-block;
+}
+nav{
+    margin-top: 2%;
+}
+nav li{
+    display: inline-block;
+    margin-right: 1%;
+    list-style-type: none;
+}
+nav a{
+    font-weight: 500;
+}
+nav a:link, nav a:visited{
+    text-decoration: none;
+    color: rgb(173, 172, 172);
+}
+nav a:hover{
+    color: grey;
+}
+nav a:active{
+    color: red;
+}
+
+
 
 .jumbo{
     margin-bottom: 2%;
+    background-image: url("../img/banner.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    border-radius: 10px;
     /* debug */
-    background-color:rgb(216, 202, 0);
-    height: 400px;
+    /* background-color:rgb(216, 202, 0); */
+    height: 450px;
 }
+.jumboLink{
+    display: inline-block;
+    height: 100%;
+    width: 100%; 
+}
+a:link {
+    text-decoration: none;
+  }
+a:visited {
+    text-decoration: none;
+  }
+.jumboInfo{
+    color: black;
+    padding-right: 40%;
+    padding-left: 3%;
+    padding-top: 25%;
+}
+
 
 .container{
     margin-bottom: 2%;
