@@ -11,9 +11,11 @@ body{
     width: 60%;
     margin: auto ;
 }
-
-.mask{
-    background-color: black;
+/* overlay immagini */
+.overlay{
+    background-color: rgba(0, 0, 0, 0.24);
+    height: 100%; 
+    border-radius: 10px;  
 }
 /* header section */
 .header{
@@ -54,8 +56,7 @@ nav a:active{
 
 
 /* jumbotron section */
-.jumbo{
-    margin-bottom: 2%;
+.jumbo{    
     background-image: url("../img/banner.jpg");
     background-repeat: repeat;
     background-position: center;
@@ -76,17 +77,20 @@ a:visited {
     text-decoration: none;
   }
 .jumboInfo{
-    color: black;
+    color: rgb(255, 255, 255);
     padding-right: 40%;
     padding-left: 3%;
     padding-top: 25%;
+}
+.jumboInfoTitle{
+    font-size: 25px;
 }
 
 /* schede section */
 
 /* scheda up */
 .up{
-    margin-bottom: 2%;
+    margin: 2% 0;
     /* debug */
     /* background-color: aqua; */
 }
