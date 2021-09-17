@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerPage{
+    width: 50%;
+    margin: 1% auto ;
+}
+
+
+.header{
+    margin-bottom: 2%;    
+    /* debug */
+    background-color:violet;
+    height: 100px;
+
+}
+
+.jumbo{
+    margin-bottom: 2%;
+    /* debug */
+    background-color:rgb(216, 202, 0);
+    height: 400px;
+}
+
+.container{
+    margin-bottom: 2%;
+    /* debug */
+    background-color: blue;
+    
+}
+
+.container div{
+    margin-bottom: 2%;
+    /* debug */
+    background-color: aqua;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.up{
+    /* debug */
+    height: 50px;
+}
+.left{
+    float: left;
+    width: 23%;
+    /* debug */
+    height: 500px;
+}
+.center{
+    float: left;
+    width: 50%;
+    margin: 0 2%;
+    /* debug */
+    height: 500px;
+}
+.right{
+    float: left;
+    width: 23%;
+    /* debug */
+    height: 500px;
+}
+
+.footer{
+    /* debug */
+    height: 50px;
+    background-color: blueviolet;
+}
