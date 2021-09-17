@@ -109,13 +109,14 @@ a:visited {
 
 /* blocchi schede left center right */
 .imgAside, .imgCenter{
-    height: 250px;
+    height: 180px;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 .left .imgAside{
     background-image: url(../img/img-1.jpg);
     background-position: center;
+    background-size: cover;
 }
 .right .imgAside{
     background-image: url(../img/img-3.jpg);
