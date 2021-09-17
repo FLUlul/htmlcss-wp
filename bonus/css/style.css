@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.containerPage{
+    width: 60%;
+    margin: auto ;
+}
+/* overlay immagini */
+.overlay{
+    background-color: rgba(0, 0, 0, 0.24);
+    height: 100%; 
+    border-radius: 10px;  
+}
+/* header section */
+.header{
+    margin-bottom: 2%;    
+    /* debug */
+    /* background-color:violet; */
+    /* height: 100px; */
+}
+.logo{
+    width: 200px;
+    border-right: solid 2px lightgray;
+    padding-right: 20px;
+}
+.indexLink{
+    display: inline-block;
+}
+nav{
+    margin-top: 2%;
+}
+nav li{
+    display: inline-block;
+    margin-right: 1%;
+    list-style-type: none;
+}
+nav a{
+    font-weight: 500;
+}
+nav a:link, nav a:visited{
+    text-decoration: none;
+    color: rgb(173, 172, 172);
+}
+nav a:hover{
+    color: grey;
+}
+nav a:active{
+    color: red;
+}
+
+
+/* jumbotron section */
+.jumbo{    
+    background-image: url("../img/banner.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    border-radius: 10px;
+    /* debug */
+    /* background-color:rgb(216, 202, 0); */
+    height: 450px;
+}
+.jumboLink{
+    display: inline-block;
+    height: 100%;
+    width: 100%; 
+}
+.jumbo:hover{
+    animation-name: sepia;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+@keyframes sepia{
+    100% {filter: sepia(50%);}
+}
+a:link {
+    text-decoration: none;
+  }
+a:visited {
+    text-decoration: none;
+  }
+.jumboInfo{
+    color: rgb(255, 255, 255);
+    padding-right: 40%;
+    padding-left: 3%;
+    padding-top: 25%;
+}
+.jumboInfoTitle{
+    font-size: 25px;
+}
+
+/* schede section */
+
+/* scheda up */
+.up{
+    margin: 2% 0;
+    /* debug */
+    /* background-color: aqua; */
+}
+.up div{
+    font-weight: 500;
+    font-size: 15px;
+    color: grey;
+}
+
+/* container schede */
+.container{
+    margin-bottom: 2%;
+    padding: 2% 0;
+    font-size: 15px;
+    /* debug */
+    /* background-color: blue;  */  
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* blocchi schede left center right */
+.imgAside, .imgCenter{
+    height: 180px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.left .imgAside{
+    background-image: url(../img/img-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.imgAside:hover{
+    animation-name: sepia;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+.right .imgAside{
+    background-image: url(../img/img-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.imgCenter{
+    background-image: url(../img/banner-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.imgCenter:hover{
+    animation-name: sepia;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+.left{
+    float: left;
+    width: 23%;
+    /* debug */
+    /* height: 500px; */
+}
+.center{
+    float: left;
+    width: 50%;
+    margin: 0 2%;
+    /* debug */
+    /* height: 500px; */
+}
+.right{
+    float: left;
+    width: 23%;   
+    /* debug */
+    /* height: 500px; */
+}
+/* titoli e paragrafi schede left center right */
+.titleCard{
+    font-weight: 600;
+}
+.container p{
+    color: grey;
+    font-weight: 500;
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    line-height: 50px;
+    /* debug */
+    height: 50px;
+/*     background-color: blueviolet; */
+}
+#heart{
+    color:purple;
+}
+#name{
+    color: purple;
+    font-weight: 500;
+}
