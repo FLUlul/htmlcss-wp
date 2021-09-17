@@ -12,6 +12,9 @@ body{
     margin: auto ;
 }
 
+.mask{
+    background-color: black;
+}
 /* header section */
 .header{
     margin-bottom: 2%;    
